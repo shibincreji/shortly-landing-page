@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Github](https://github.com/shibincreji/shortly-landing-page)
--   Live Site URL: [Netlify](https://adramelech-shortly-landing-page.netlify.app)
+-   Live Site URL: [Netlify](https://myshortly.netlify.app)
 
 ## My process
 
