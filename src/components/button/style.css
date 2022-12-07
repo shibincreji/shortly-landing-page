@@ -1,0 +1,15 @@
+.btn {
+	background-color: var(--primary-400);
+	font-weight: 700;
+	font-size: var(--s12);
+	border: none;
+	padding: calc(var(--s5) / 3) var(--s4);
+	border-radius: 10rem;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.2s linear;
+}
+
+.btn:not(.copied):hover {
+	background-color: hsl(180, 51%, 40%);
+}

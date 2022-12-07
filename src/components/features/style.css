@@ -1,0 +1,29 @@
+.features {
+	background-color: var(--secondary-600);
+	padding-block: 7rem 8rem;
+}
+
+.features__title,
+.features__text {
+	text-align: center;
+	max-width: 32rem;
+	margin-inline: auto;
+}
+
+.features__title {
+	margin-top: 7rem;
+}
+
+.features__text {
+	font-size: 1.1rem;
+	margin-top: var(--s1);
+}
+
+@media (max-width: 800px) {
+	.features {
+		padding-block: 8rem 8rem;
+	}
+	.features__title {
+		margin-top: 4rem;
+	}
+}

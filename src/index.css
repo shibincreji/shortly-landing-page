@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-400: hsl(180, 66%, 49%);
+	--secondary-600: hsl(225, 33%, 95%);
+	--secondary-500: hsl(257, 7%, 63%);
+	--secondary-400: hsl(257, 27%, 26%);
+	--secondary-300: hsl(255, 11%, 22%);
+	--secondary-200: hsl(260, 8%, 14%);
+	--accent: hsl(0, 87%, 67%);
+
+	--s1: 0.5em;
+	--s2: 1em;
+	--s3: 1.5em;
+	--s4: 2em;
+	--s5: 2.5em;
+	--s6: 3em;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: var(--secondary-200);
+}
+
+h1 {
+	font-size: 5rem;
+	line-height: 1.1em;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+p {
+	color: var(--secondary-500);
+	line-height: 1.75em;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: min(1200px, 95%);
+	margin-inline: auto;
+	padding-inline: var(--s2);
+}
+
+.cta.btn {
+	font-size: 1.25rem;
+}
+
+.navlink {
+	cursor: pointer;
+}
+
+.navlink:hover {
+	color: var(--secondary-200);
+}
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: clamp(2rem, 11vw, 4rem);
+	}
+}
+@media (max-width: 380px) {
+	:root {
+		font-size: calc(1rem - 5px);
+	}
+}

@@ -1,0 +1,46 @@
+.header {
+	margin-block: var(--s6);
+}
+
+.header > .container {
+	display: flex;
+	align-items: center;
+	gap: var(--s4);
+}
+
+.header nav {
+	width: 100%;
+}
+
+.header__navlinks {
+	display: flex;
+	align-items: center;
+	gap: var(--s4);
+}
+
+.navlink {
+	color: var(--secondary-500);
+	font-weight: 700;
+}
+
+.login {
+	margin-left: auto;
+}
+
+.hamburger {
+	font-size: 4rem;
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.header__navlinks {
+		display: none;
+	}
+	.header {
+		margin-block: var(--s2);
+	}
+	.hamburger {
+		display: block;
+		cursor: pointer;
+	}
+}
